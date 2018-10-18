@@ -9,11 +9,11 @@ module NewspaperWorksFixtures
 
   # returns the full path to the fixture files dir
   def self.file_fixtures
-    Dir.join(root, 'spec', 'fixtures', 'files')
+    File.join(root, 'spec', 'fixtures', 'files')
   end
 
   # returns the full path to the NDNP sample batch
   def self.ndnp_sample_batch
-    Dir.join(file_fixtures, 'ndnp', 'batch_test_ver01')
+    File.join(file_fixtures, 'ndnp', 'batch_test_ver01')
   end
 end
