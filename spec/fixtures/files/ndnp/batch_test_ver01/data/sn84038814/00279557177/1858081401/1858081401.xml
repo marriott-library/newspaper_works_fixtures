@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:MODS="http://www.loc.gov/mods/v3" PROFILE="urn:library-of-congress:mets:profiles:ndnp:issue:v1.5" xmlns:xlink="http://www.w3.org/1999/xlink" TYPE="urn:library-of-congress:ndnp:mets:newspaper:issue" LABEL="Daily national Democrat (Marysville, Calif.), 1858-08-14" xmlns:mix="http://www.loc.gov/mix/" xmlns:ndnp="http://www.loc.gov/ndnp" xmlns:premis="http://www.loc.gov/standards/premis" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="http://www.loc.gov/METS/">
+	<metsHdr CREATEDATE="2018-04-17T05:41:11" RECORDSTATUS="">
+		<agent ROLE="CREATOR" TYPE="ORGANIZATION">
+			<name>University of California, Riverside, CA</name>
+		</agent>
+	</metsHdr>
+	<dmdSec ID="issueModsBib">
+		<mdWrap MDTYPE="MODS" LABEL="Issue metadata">
+			<xmlData>
+				<MODS:mods>
+					<MODS:relatedItem type="host">
+						<MODS:identifier type="lccn">sn84038814</MODS:identifier>
+						<MODS:part>
+							<MODS:detail type="volume">
+								<MODS:number>1</MODS:number>
+							</MODS:detail>
+							<MODS:detail type="issue">
+								<MODS:number>3</MODS:number>
+							</MODS:detail>
+							<MODS:detail type="edition">
+								<MODS:number>1</MODS:number>
+							</MODS:detail>
+						</MODS:part>
+					</MODS:relatedItem>
+					<MODS:originInfo>
+						<MODS:dateIssued encoding="iso8601">1858-08-14</MODS:dateIssued>
+					</MODS:originInfo>
+					<MODS:note type="noteAboutReproduction">Present</MODS:note>
+				</MODS:mods>
+			</xmlData>
+		</mdWrap>
+	</dmdSec>
+	<dmdSec ID="pageModsBib1">
+		<mdWrap MDTYPE="MODS" LABEL="Page metadata">
+			<xmlData>
+				<MODS:mods>
+					<MODS:part>
+						<MODS:extent unit="pages">
+							<MODS:start>1</MODS:start>
+						</MODS:extent>
+					</MODS:part>
+					<MODS:relatedItem type="original">
+						<MODS:physicalDescription>
+							<MODS:form type="microfilm"/>
+						</MODS:physicalDescription>
+						<MODS:identifier type="reel number">00279557177</MODS:identifier>
+						<MODS:identifier type="reel sequence number">10</MODS:identifier>
+						<MODS:location>
+							<MODS:physicalLocation authority="marcorg" displayLabel="University of California, Riverside; Riverside, CA">curiv</MODS:physicalLocation>
+						</MODS:location>
+					</MODS:relatedItem>
+					<MODS:note type="agencyResponsibleForReproduction" displayLabel="University of California, Riverside, CA">curiv</MODS:note>
+					<MODS:note type="noteAboutReproduction" displayLabel="">Present</MODS:note>
+				</MODS:mods>
+			</xmlData>
+		</mdWrap>
+	</dmdSec>
+	<fileSec>
+		<fileGrp ID="pageFileGrp1">
+			<file ID="masterFile1" USE="master">
+				<FLocat LOCTYPE="OTHER" OTHERLOCTYPE="file" xlink:href="./0010.tif"/>
+			</file>
+			<file ID="serviceFile1" USE="service">
+				<FLocat LOCTYPE="OTHER" OTHERLOCTYPE="file" xlink:href="./0010.jp2"/>
+			</file>
+			<file ID="otherDerivativeFile1" USE="derivative">
+				<FLocat LOCTYPE="OTHER" OTHERLOCTYPE="file" xlink:href="./0010.pdf"/>
+			</file>
+			<file ID="ocrFile1" USE="ocr">
+				<FLocat LOCTYPE="OTHER" OTHERLOCTYPE="file" xlink:href="./0010.xml"/>
+			</file>
+		</fileGrp>
+	</fileSec>
+	<structMap xmlns:np="urn:library-of-congress:ndnp:mets:newspaper">
+		<div TYPE="np:issue" DMDID="issueModsBib">
+			<div TYPE="np:page" DMDID="pageModsBib1">
+				<fptr FILEID="masterFile1"/>
+				<fptr FILEID="serviceFile1"/>
+				<fptr FILEID="otherDerivativeFile1"/>
+				<fptr FILEID="ocrFile1"/>
+			</div>
+		</div>
+	</structMap>
+</mets>

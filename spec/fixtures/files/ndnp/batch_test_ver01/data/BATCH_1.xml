@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ndnp:batch name="batch_test" awardee="newspaper_works" awardYear="2018" xmlns:ndnp="http://www.loc.gov/ndnp">
+    <ndnp:issue lccn="sn84038814" issueDate="1858-08-13" editionOrder="1">sn84038814/00279557177/1858081301/1858081301_1.xml</ndnp:issue>
+    <ndnp:issue lccn="sn84038814" issueDate="1858-08-14" editionOrder="1">sn84038814/00279557177/1858081401/1858081401_1.xml</ndnp:issue>
+    <ndnp:issue lccn="sn84038814" issueDate="1859-01-01" editionOrder="1">sn84038814/00279557189/1859010101/1859010101_1.xml</ndnp:issue>
+    <ndnp:issue lccn="sn85025202" issueDate="1857-02-14" editionOrder="1">sn85025202/00279557281/1857021401/1857021401_1.xml</ndnp:issue>
+    <ndnp:reel reelNumber="00279557177">sn84038814/00279557177/00279557177_1.xml</ndnp:reel>
+    <ndnp:reel reelNumber="00279557189">sn84038814/00279557189/00279557189_1.xml</ndnp:reel>
+    <ndnp:reel reelNumber="00279557281">sn85025202/00279557281/00279557281_1.xml</ndnp:reel>
+</ndnp:batch>

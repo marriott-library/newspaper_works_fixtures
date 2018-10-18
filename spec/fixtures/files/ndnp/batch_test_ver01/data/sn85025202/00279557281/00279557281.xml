@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets TYPE="urn:library-of-congress:ndnp:mets:microfilmReel" PROFILE="urn:library-of-congress:mets:profiles:ndnp:microfilmReel:v1.4" LABEL="00279557281" xmlns:mix="http://www.loc.gov/mix/" xmlns:ndnp="http://www.loc.gov/ndnp" xmlns:premis="http://www.loc.gov/standards/premis" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="http://www.loc.gov/METS/" xmlns:MODS="http://www.loc.gov/mods/v3">
+	<metsHdr CREATEDATE="2018-07-19T16:17:16" RECORDSTATUS="">
+		<agent ROLE="CREATOR" TYPE="ORGANIZATION">
+			<name>University of Utah</name>
+		</agent>
+	</metsHdr>
+	<dmdSec ID="techTargetModsBib1">
+		<mdWrap MDTYPE="MODS" LABEL="Tech Target metadata">
+			<xmlData>
+				<MODS:mods>
+					<MODS:titleInfo>
+						<MODS:title>Preservation Microfilm Scanner Target PMT1</MODS:title>
+					</MODS:titleInfo>
+					<MODS:note type="agencyResponsibleForReproduction" displayLabel="University of Utah, Salt Lake City, UT">newspaper_works</MODS:note>
+				</MODS:mods>
+			</xmlData>
+		</mdWrap>
+	</dmdSec>
+	<amdSec>
+		<techMD ID="reelTechMD">
+			<mdWrap MDTYPE="OTHER" OTHERMDTYPE="NDNP Reel Technical Metadata" LABEL="NDNP technical metadata for microfilm reel">
+				<xmlData>
+					<ndnp:reelTechMD>
+						<ndnp:titles>Weekly Trinity journal (Weaverville, Calif.)</ndnp:titles>
+						<ndnp:startDate>1857-02-14</ndnp:startDate>
+						<ndnp:endDate>1859-12-31</ndnp:endDate>
+						<ndnp:position>2b</ndnp:position>
+						<ndnp:reductionRatio>21</ndnp:reductionRatio>
+						<ndnp:captureResolutionOriginal measurement="pixels/inch">300</ndnp:captureResolutionOriginal>
+						<ndnp:captureResolutionFilm measurement="pixels/inch">6300</ndnp:captureResolutionFilm>
+						<ndnp:guideToContentsPresentFlag>true</ndnp:guideToContentsPresentFlag>
+						<ndnp:pagesPerIssue>4</ndnp:pagesPerIssue>
+					</ndnp:reelTechMD>
+				</xmlData>
+			</mdWrap>
+		</techMD>
+	</amdSec>
+	<fileSec>
+		<fileGrp ID="targetFileGrp1">
+			<file ID="masterFile1" USE="master">
+				<FLocat LOCTYPE="OTHER" OTHERLOCTYPE="file" xlink:href="./TARGET-000001.tif"/>
+			</file>
+			<file ID="serviceFile1" USE="service">
+				<FLocat LOCTYPE="OTHER" OTHERLOCTYPE="file" xlink:href="./TARGET-000001.jp2"/>
+			</file>
+			<file ID="otherDerivativeFile1" USE="derivative">
+				<FLocat LOCTYPE="OTHER" OTHERLOCTYPE="file" xlink:href="./TARGET-000001.pdf"/>
+			</file>
+			<file ID="ocrFile1" USE="ocr">
+				<FLocat LOCTYPE="OTHER" OTHERLOCTYPE="file" xlink:href="./TARGET-000001.xml"/>
+			</file>
+		</fileGrp>
+	</fileSec>
+	<structMap xmlns:np="urn:library-of-congress:ndnp:mets:newspaper">
+		<div TYPE="np:reel" ADMID="reelTechMD">
+			<div TYPE="np:techtargetreel">
+				<div TYPE="np:target" DMDID="techTargetModsBib1">
+					<fptr FILEID="masterFile1"/>
+					<fptr FILEID="serviceFile1"/>
+					<fptr FILEID="otherDerivativeFile1"/>
+					<fptr FILEID="ocrFile1"/>
+				</div>
+			</div>
+		</div>
+	</structMap>
+</mets>

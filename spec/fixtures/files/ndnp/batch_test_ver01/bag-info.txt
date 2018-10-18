@@ -1,0 +1,6 @@
+Payload-Oxum: 100565374392.31195
+Bagging-Date: 2018-09-24
+Bag-Size: 410 MB
+Local-Contact-Name: Jane Doe
+Local-Identifier: batch_test_ver01 (ndnp)
+LC-CTS-Key: 123456
