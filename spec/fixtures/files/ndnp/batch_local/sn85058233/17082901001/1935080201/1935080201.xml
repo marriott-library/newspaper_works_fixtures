@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets TYPE="urn:library-of-congress:ndnp:mets:newspaper:issue" PROFILE="urn:library-of-congress:mets:profiles:ndnp:issue:v1.5" LABEL="The Park Record (Park City, UT), 1935-08-02, Main Edition" 
+     xmlns:mix="http://www.loc.gov/mix/" xmlns:ndnp="http://www.loc.gov/ndnp" xmlns:premis="http://www.oclc.org/premis" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.loc.gov/METS/"
+     xsi:schemaLocation="
+     http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version17/mets.v1-7.xsd  
+     http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd" >
+     
+     <!--METS HEADER-->
+     <metsHdr CREATEDATE="2017-09-25T10:59:00">
+        <agent ROLE="CREATOR" TYPE="ORGANIZATION">
+            <name>University of Utah</name>
+        </agent>
+    </metsHdr>
+
+    <!--DESCRIPTIVE METADATA-->
+    
+    <dmdSec ID="issueModsBib">                
+        <mdWrap MDTYPE="MODS" LABEL="Issue metadata">
+            <xmlData>
+                <mods:mods>
+                    <mods:relatedItem type="host">
+                        <mods:identifier type="lccn">sn85058233</mods:identifier>
+                        <mods:part>
+                            <mods:detail type="volume">
+                                <mods:number>56</mods:number>
+                            </mods:detail>
+                            <mods:detail type="issue">
+                                <mods:number>27</mods:number>
+                            </mods:detail>
+                            <mods:detail type="edition">
+                                <mods:number>1</mods:number>
+                                <mods:caption>Main Edition</mods:caption>
+                            </mods:detail>
+                        </mods:part>
+                    </mods:relatedItem>
+                    <mods:originInfo>
+                        <mods:dateIssued encoding="iso8601">1935-08-02</mods:dateIssued>
+                    </mods:originInfo>
+                    <mods:note type="noteAboutReproduction">Present</mods:note>
+                </mods:mods>
+            </xmlData>
+        </mdWrap>
+    </dmdSec>
+    <dmdSec ID="pageModsBib8">
+        <mdWrap MDTYPE="MODS" LABEL="Page metadata">
+            <xmlData>
+                <mods:mods>
+                    <mods:part>                        
+                        <mods:extent unit="pages">
+                            <mods:start>1</mods:start>
+                        </mods:extent>
+                        <mods:detail type="page number">
+                            <mods:number>1</mods:number>
+                        </mods:detail>
+                    </mods:part>
+                    <mods:relatedItem type="original">
+						<mods:physicalDescription>
+							<mods:form type="print"/>
+						</mods:physicalDescription>                        
+                        
+                        <mods:location>
+	                        <mods:physicalLocation authority="marcorg" displayLabel="University of Utah; Salt Lake City, UT">uuml</mods:physicalLocation>
+                        </mods:location>
+                    </mods:relatedItem>
+                    <mods:note type="agencyResponsibleForReproduction" displayLabel="Newspapers.com; Lindon, UT">utnspr</mods:note>
+                    <mods:note type="noteAboutReproduction" >Present</mods:note>
+                </mods:mods>
+            </xmlData>
+        </mdWrap>
+    </dmdSec>
+    <dmdSec ID="pageModsBib6">
+        <mdWrap MDTYPE="MODS" LABEL="Page metadata">
+            <xmlData>
+                <mods:mods>
+                    <mods:part>                        
+                        <mods:extent unit="pages">
+                            <mods:start>2</mods:start>
+                        </mods:extent>
+                        <mods:detail type="page number">
+                            <mods:number>2</mods:number>
+                        </mods:detail>
+                    </mods:part>
+                    <mods:relatedItem type="original">
+						<mods:physicalDescription>
+							<mods:form type="print"/>
+						</mods:physicalDescription>                        
+                        
+                        <mods:location>
+	                        <mods:physicalLocation authority="marcorg" displayLabel="University of Utah; Salt Lake City, UT">uuml</mods:physicalLocation>
+                        </mods:location>
+                    </mods:relatedItem>
+                    <mods:note type="agencyResponsibleForReproduction" displayLabel="Newspapers.com; Lindon, UT">utnspr</mods:note>
+                    <mods:note type="noteAboutReproduction" >Present</mods:note>
+                </mods:mods>
+            </xmlData>
+        </mdWrap>
+    </dmdSec>
+    <!--FILE SECTION-->
+    <fileSec>
+        <fileGrp ID="pageFileGrp8">
+            <file ID="masterFile8" USE="master" >               
+                <FLocat LOCTYPE="OTHER" OTHERLOCTYPE="file" xlink:href="1292.tif" />                                    
+            </file>
+            <file ID="serviceFile8" USE="service" >               
+                <FLocat LOCTYPE="OTHER" OTHERLOCTYPE="file" xlink:href="1292.jp2" />                                                
+            </file>
+            <file ID="otherDerivativeFile8" USE="derivative" >               
+                <FLocat LOCTYPE="OTHER" OTHERLOCTYPE="file" xlink:href="1292.pdf" />                                                
+            </file>            
+            <file ID="ocrFile8" USE="ocr" >               
+                <FLocat LOCTYPE="OTHER" OTHERLOCTYPE="file" xlink:href="1292.xml" />                                                
+            </file>                       
+        </fileGrp>
+        <fileGrp ID="pageFileGrp6">
+            <file ID="masterFile6" USE="master" >               
+                <FLocat LOCTYPE="OTHER" OTHERLOCTYPE="file" xlink:href="1289.tif" />                                    
+            </file>
+            <file ID="serviceFile6" USE="service" >               
+                <FLocat LOCTYPE="OTHER" OTHERLOCTYPE="file" xlink:href="1289.jp2" />                                                
+            </file>
+            <file ID="otherDerivativeFile6" USE="derivative" >               
+                <FLocat LOCTYPE="OTHER" OTHERLOCTYPE="file" xlink:href="1289.pdf" />                                                
+            </file>            
+            <file ID="ocrFile6" USE="ocr" >               
+                <FLocat LOCTYPE="OTHER" OTHERLOCTYPE="file" xlink:href="1289.xml" />                                                
+            </file>                       
+        </fileGrp>
+    </fileSec>
+
+    <!--STRUCTURAL MAP-->    
+    <structMap xmlns:np="urn:library-of-congress:ndnp:mets:newspaper">
+        <div TYPE="np:issue" DMDID="issueModsBib">
+                 <div TYPE="np:page" DMDID="pageModsBib8">
+                    <fptr FILEID="masterFile8" />
+                    <fptr FILEID="serviceFile8" />
+                    <fptr FILEID="otherDerivativeFile8" />
+                    <fptr FILEID="ocrFile8" />
+                </div>                
+                
+                 <div TYPE="np:page" DMDID="pageModsBib6">
+                    <fptr FILEID="masterFile6" />
+                    <fptr FILEID="serviceFile6" />
+                    <fptr FILEID="otherDerivativeFile6" />
+                    <fptr FILEID="ocrFile6" />
+                </div>
+        </div>         
+    </structMap>
+
+ </mets>

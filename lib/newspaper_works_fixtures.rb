@@ -13,7 +13,12 @@ module NewspaperWorksFixtures
   end
 
   # returns the full path to the NDNP sample batch
-  def self.ndnp_sample_batch
+  def self.ndnp_chronam_batch
     File.join(file_fixtures, 'ndnp', 'batch_test_ver01')
+  end
+
+  # returns the full path to the NDNP local batch
+  def self.ndnp_local_batch
+    File.join(file_fixtures, 'ndnp', 'batch_local')
   end
 end

@@ -1,14 +1,53 @@
-newspaper_works_fixtures
+NewspaperWorksFixtures
 ===================================================
 
 This project contains very little code, but provides a set of fixture files under 
 version control to facilitate testing of ingest workflows for [newspaper_works](https://github.com/marriott-library/newspaper_works),
 or for other digitized newspaper content workflows in general.
 
+# Installation
+
+Add NewspaperWorksFixtures to your `Gemfile`, _preferably only as a test or 
+development dependency_:
+
+```ruby
+group :development, :test do
+  gem 'newspaper_works_fixtures', :git => 'https://github.com/marriott-library/newspaper_works_fixtures'
+end
+```
+
+Then run `bundle install`.
+
+Once the gem is installed, you will be able to access the paths to the fixtures by
+calling methods on the base `NewspaperWorksFixtures` class, as in:
+
+```
+2.4.1 :001 > NewspaperWorksFixtures.file_fixtures
+ => "/path/to/newspaper_works_fixtures/spec/fixtures/files"
+```
+
 # Contents
 
-#### NDNP sample batch
-`NewspaperWorksFixtures.ndnp_sample_batch`
+#### NDNP 'local' batch
+```ruby
+# /path/to/gem/spec/fixtures/files/ndnp/batch_local
+NewspaperWorksFixtures.ndnp_local_batch
+```
+
+A small batch of newspaper objects that is intended to mock vendor-provided
+digitization deliverables conforming to Library of Congress [NDNP specs](http://www.loc.gov/ndnp/guidelines/NDNP_201820TechNotes.pdf).
+(The data here is from University of Utah.)
+
+This batch includes 1 title, 1 reel, and 1 issue with 2 pages. Each scan has a 
+TIFF, JP2, PDF, and ALTO XML file.
+
+2 image scans; 74 MB
+
+#### NDNP ChronAm batch
+```ruby
+# /path/to/gem/spec/fixtures/files/ndnp/batch_test_ver01
+NewspaperWorksFixtures.ndnp_chronam_batch
+```
 
 A small batch of newspaper objects that mimics the BagIt-formatted batches of scanned newspapers
 found on the Library of Congress Chronicling America [data/batches](https://chroniclingamerica.loc.gov/data/batches/) site.
@@ -18,7 +57,7 @@ This batch includes multiple titles, reels, target files, issues, and pages. Eac
 JP2, PDF, and ALTO XML file (no TIFF). All of the corresponding BagIt and METS
 files are included as well.
 
-11 page scans; 149 MB
+11 image scans; 149 MB
 
 # Credits
 
