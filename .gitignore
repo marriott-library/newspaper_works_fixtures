@@ -35,3 +35,6 @@ fits.log
 
 # Ignore Gemfile.lock
 Gemfile.lock
+
+*.gem
+
