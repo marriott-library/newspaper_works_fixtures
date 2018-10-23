@@ -12,7 +12,7 @@ development dependency_:
 
 ```ruby
 group :development, :test do
-  gem 'newspaper_works_fixtures', :git => 'https://github.com/marriott-library/newspaper_works_fixtures'
+  gem 'newspaper_works_fixtures'
 end
 ```
 
@@ -35,7 +35,8 @@ NewspaperWorksFixtures.ndnp_local_batch
 ```
 
 A small batch of newspaper objects that is intended to mock vendor-provided
-digitization deliverables conforming to Library of Congress [NDNP specs](http://www.loc.gov/ndnp/guidelines/NDNP_201820TechNotes.pdf).
+digitization deliverables (page-level objects, no article segmentation) 
+conforming to Library of Congress [NDNP specs](http://www.loc.gov/ndnp/guidelines/NDNP_201820TechNotes.pdf).
 (The data here is from University of Utah.)
 
 This batch includes 1 title, 1 reel, and 1 issue with 2 pages. Each scan has a 
@@ -51,7 +52,8 @@ NewspaperWorksFixtures.ndnp_chronam_batch
 
 A small batch of newspaper objects that mimics the BagIt-formatted batches of scanned newspapers
 found on the Library of Congress Chronicling America [data/batches](https://chroniclingamerica.loc.gov/data/batches/) site.
-(The data here is from `batch_curiv_jojoba_ver01`.)
+(The data here is from `batch_curiv_jojoba_ver01`; page-level objects, no 
+article segmentation.)
 
 This batch includes multiple titles, reels, target files, issues, and pages. Each scan has a 
 JP2, PDF, and ALTO XML file (no TIFF). All of the corresponding BagIt and METS
