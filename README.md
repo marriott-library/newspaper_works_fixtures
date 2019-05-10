@@ -69,13 +69,17 @@ files are included as well.
 NewspaperWorksFixtures.article_segmented_deseret_news_batch
 ```
 
-This batch includes multiple titles, reels, target files, issues, and pages. Each page has a
-JP2, PDF, and ALTO XML file (no TIFF).
+This batch includes one title, one issue, nine pages, and articles. Each page has a PDF, and ALTO XML file, and each article has a PDF and an ALTO XML file (no TIFF).
 
-10 jp2; 27.7 MB
-10 pdfs; 5.6 MB
+**Article segmented**
+19 pdf; 5.6 MB
+19 xml/dtd
 
-#### Beaver County News article segmented batch
+**Page level**
+9 pdf; 5.6 MB
+9 xml/dtd
+
+#### Beaver County News batch
 ```ruby
 # /path/to/gem/spec/fixtures/files/article-segmented/batch_beaver_county_news
 NewspaperWorksFixtures.article_segmented_beaver_county_news_batch
