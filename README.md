@@ -79,17 +79,24 @@ This batch includes one title, one issue, nine pages, and articles. Each page ha
 9 pdf; 5.6 MB
 9 xml/dtd
 
-#### Beaver County News batch
+#### Topaz Times article segmented batch
 ```ruby
-# /path/to/gem/spec/fixtures/files/article-segmented/batch_beaver_county_news
-NewspaperWorksFixtures.article_segmented_beaver_county_news_batch
+# /path/to/gem/spec/fixtures/files/article-segmented/batch_topaz_times
+NewspaperWorksFixtures.article_segmented_topaz_times_batch
 ```
 
-This batch includes multiple titles, reels, target files, issues, and pages. Each page has a
-JP2, PDF, ALTO XML file, and an articles XML file (no TIFF).
+This batch includes an issue, pages, and articles. Each page has a
+PDF, TIF, ALTO XML file, and an articles XML file.
 
-10 jp2; 27.7 MB
-10 pdfs; 5.6 MB
+##### Page level
+
+4 pdf; 302 KB
+4 tif; 261 KB
+
+##### Article segmented
+
+30 pdf; 397 KB
+33 tif; 332 KB
 
 # Credits
 

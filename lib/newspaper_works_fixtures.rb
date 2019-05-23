@@ -22,13 +22,13 @@ module NewspaperWorksFixtures
     File.join(file_fixtures, 'ndnp', 'batch_local')
   end
 
-  # returns the full path to the Beaver County News batch
-  def self.article_segmented_batch_beaver_county_news
-    File.join(file_fixtures, 'article-segmented', 'batch_beaver_county_news')
+  # returns the full path to the Deseret News batch
+  def self.article_segmented_deseret_news_batch
+    File.join(file_fixtures, 'article-segmented', 'batch_deseret_news')
   end
 
-  # returns the full path to the Deseret News batch
-  def self.article_segmented_batch_deseret_news
-    File.join(file_fixtures, 'article-segmented', 'batch_deseret_news')
+  # returns the full path to the topaz_times_batch
+  def self.article_segmented_topaz_times_batch
+    File.join(file_fixtures, 'article-segmented', 'batch_topaz_times')
   end
 end
