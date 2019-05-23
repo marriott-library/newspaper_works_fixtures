@@ -65,8 +65,8 @@ files are included as well.
 
 #### Deseret News article segmented batch
 ```ruby
-# /path/to/gem/spec/fixtures/files/article-segmented/batch_deseret_news
-NewspaperWorksFixtures.article_segmented_deseret_news_batch
+# /path/to/gem/spec/fixtures/files/article_segmented/batch_deseret_news
+NewspaperWorksFixtures.article_segmented_batch_deseret_news
 ```
 
 This batch includes one title, one issue, nine pages, and articles. Each page has a PDF, and ALTO XML file, and each article has a PDF and an ALTO XML file (no TIFF).
@@ -81,8 +81,8 @@ This batch includes one title, one issue, nine pages, and articles. Each page ha
 
 #### Topaz Times article segmented batch
 ```ruby
-# /path/to/gem/spec/fixtures/files/article-segmented/batch_topaz_times
-NewspaperWorksFixtures.article_segmented_topaz_times_batch
+# /path/to/gem/spec/fixtures/files/article_segmented/batch_topaz_times
+NewspaperWorksFixtures.article_segmented_batch_topaz_times
 ```
 
 This batch includes an issue, pages, and articles. Each page has a
