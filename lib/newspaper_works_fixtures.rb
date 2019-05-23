@@ -23,12 +23,12 @@ module NewspaperWorksFixtures
   end
 
   # returns the full path to the Deseret News batch
-  def self.article_segmented_deseret_news_batch
-    File.join(file_fixtures, 'article-segmented', 'batch_deseret_news')
+  def self.article_segmented_batch_deseret_news
+    File.join(file_fixtures, 'article_segmented', 'batch_deseret_news')
   end
 
-  # returns the full path to the topaz_times_batch
-  def self.article_segmented_topaz_times_batch
-    File.join(file_fixtures, 'article-segmented', 'batch_topaz_times')
+  # returns the full path to the Topaz Times batch
+  def self.article_segmented_batch_topaz_times
+    File.join(file_fixtures, 'article_segmented', 'batch_topaz_times')
   end
 end
