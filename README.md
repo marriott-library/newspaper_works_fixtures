@@ -61,8 +61,6 @@ files are included as well.
 
 11 image scans; 149 MB
 
-# update info below
-
 #### Deseret News article segmented batch
 ```ruby
 # /path/to/gem/spec/fixtures/files/article_segmented/batch_deseret_news
@@ -71,13 +69,9 @@ NewspaperWorksFixtures.article_segmented_batch_deseret_news
 
 This batch includes one title, one issue, nine pages, and articles. Each page has a PDF, and ALTO XML file, and each article has a PDF and an ALTO XML file (no TIFF).
 
-**Article segmented**
-19 pdf; 5.6 MB
-19 xml/dtd
+Article segmented files: 19 pdf, 19 xml/dtd; 3.9 MB
 
-**Page level**
-9 pdf; 5.6 MB
-9 xml/dtd
+Page level files: 9 pdf; 5.6 MB; 9 xml/dtd; 3.8 MB
 
 #### Topaz Times article segmented batch
 ```ruby
@@ -85,18 +79,11 @@ This batch includes one title, one issue, nine pages, and articles. Each page ha
 NewspaperWorksFixtures.article_segmented_batch_topaz_times
 ```
 
-This batch includes an issue, pages, and articles. Each page has a
-PDF, TIF, ALTO XML file, and an articles XML file.
+This batch includes an issue, pages, and articles. Each page has a PDF, TIF, ALTO XML file, and an articles XML file.
 
-##### Page level
+Article segmented files: 30 PDF, 30 TIF; 1.1 MB
 
-4 pdf; 302 KB
-4 tif; 261 KB
-
-##### Article segmented
-
-30 pdf; 397 KB
-33 tif; 332 KB
+Page level files: 4 PDF, 4 TIF; 876 KB
 
 # Credits
 

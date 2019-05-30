@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <batch xmlns:ndnp="http://www.loc.gov/ndnp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/ndnp" xsi:schemaLocation="http://www.loc.gov/ndnp ./schema/ndnpBatch.xsd" name="batch_test" awardee="newspaper_works" awardYear="2018">
-	<issue lccn="sn84038814" issueDate="1858-08-13" editionOrder="1">../batch_test/sn84038814/00279557177/1858081301/1858081301.xml</issue>
-	<issue lccn="sn84038814" issueDate="1858-08-14" editionOrder="1">../batch_test/sn84038814/00279557177/1858081401/1858081401.xml</issue>
-	<issue lccn="sn84038814" issueDate="1859-01-01" editionOrder="1">../batch_test/sn84038814/00279557189/1859010101/1859010101.xml</issue>
-	<issue lccn="sn85025202" issueDate="1857-02-14" editionOrder="1">../batch_test/sn85025202/00279557281/1857021401/1857021401.xml</issue>
-	<reel reelNumber="00279557177">../batch_test/sn84038814/00279557177/00279557177.xml</reel>
-	<reel reelNumber="00279557189">../batch_test/sn84038814/00279557189/00279557189.xml</reel>
-	<reel reelNumber="00279557281">../batch_test/sn85025202/00279557281/00279557281.xml</reel>
+	<issue lccn="sn84038814" issueDate="1858-08-13" editionOrder="1">sn84038814/00279557177/1858081301/1858081301.xml</issue>
+	<issue lccn="sn84038814" issueDate="1858-08-14" editionOrder="1">sn84038814/00279557177/1858081401/1858081401.xml</issue>
+	<issue lccn="sn84038814" issueDate="1859-01-01" editionOrder="1">sn84038814/00279557189/1859010101/1859010101.xml</issue>
+	<issue lccn="sn85025202" issueDate="1857-02-14" editionOrder="1">sn85025202/00279557281/1857021401/1857021401.xml</issue>
+	<reel reelNumber="00279557177">sn84038814/00279557177/00279557177.xml</reel>
+	<reel reelNumber="00279557189">sn84038814/00279557189/00279557189.xml</reel>
+	<reel reelNumber="00279557281">sn85025202/00279557281/00279557281.xml</reel>
 </batch>
