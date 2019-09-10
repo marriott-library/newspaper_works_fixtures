@@ -31,4 +31,14 @@ module NewspaperWorksFixtures
   def self.article_segmented_batch_topaz_times
     File.join(file_fixtures, 'article_segmented', 'batch_topaz_times')
   end
+
+  # returns the PDF batch (single publication) for Chicopee Weekly
+  def self.pdf_batch
+    File.join(file_fixtures, 'pdf_batch')
+  end
+
+  # returns the TIFF batch (extracted from materials in PDF batch)
+  def self.tiff_batch
+    File.join(file_fixtures, 'tiff_batch')
+  end
 end
