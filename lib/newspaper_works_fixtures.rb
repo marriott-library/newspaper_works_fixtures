@@ -34,11 +34,11 @@ module NewspaperWorksFixtures
 
   # returns the PDF batch (single publication) for Chicopee Weekly
   def self.pdf_batch
-    File.join(file_fixtures, 'pdf_batch')
+    File.join(file_fixtures, 'pdf_batch', 'sn93059126')
   end
 
   # returns the TIFF batch (extracted from materials in PDF batch)
   def self.tiff_batch
-    File.join(file_fixtures, 'tiff_batch')
+    File.join(file_fixtures, 'tiff_batch', 'sn93059126')
   end
 end
