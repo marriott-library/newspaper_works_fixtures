@@ -61,6 +61,39 @@ files are included as well.
 
 11 image scans; 149 MB
 
+#### PDF and TIFF batch (Chicopee Weekly)
+```ruby
+# /path/to/gem/spec/fixtures/files/article_segmented/batch_deseret_news
+NewspaperWorksFixtures.pdf_batch
+NewspaperWorksFixtures.tiff_batch
+```
+These are two variants of four-page issues of Chicopee Weekly, via 
+[Digital Commonwealth](https://www.digitalcommonwealth.org/collections/commonwealth-oai:xd07gx07n).
+
+The PDF source materials are 400 ppi monochrome (CCITT group 4 compressed),
+with each PDF representing a single four page issue.  The file naming convention
+is as follows:
+
+- Publication directory named with Library of Congress Control Number (LCCN).
+
+- Inside publication directory are PDF files using naming convention of
+  `YYYYMMDDEE.pdf`, where:
+  - `YYYY` is four digit year.
+  - `MM` is month (zero padded).
+  - `DD` is day of month (zero padded).
+  - `EE` is edition number (zero padded).
+
+The TIFF batch likewise is one-bit "Group 4" compressed mononchrome images,
+and use a similar `YYYMMDDEE` naming convention:
+
+- Publication directory named with Library of Congress Control Number (LCCN).
+
+- Directly contained in publication directory are directories, one per issue,
+  using the `YYYYMMDDEE` naming convention/
+
+- Inside issue directories are TIFF files with lexically ordered filenames,
+  corresponding to page sequence order of that issue.
+
 #### Deseret News article segmented batch
 ```ruby
 # /path/to/gem/spec/fixtures/files/article_segmented/batch_deseret_news
