@@ -94,6 +94,12 @@ and use a similar `YYYMMDDEE` naming convention:
 - Inside issue directories are TIFF files with lexically ordered filenames,
   corresponding to page sequence order of that issue.
 
+#### JP2 Batch
+
+- The JP2 batch is a copy of a two-page issue also included in NDNP source
+  materials in this gem.
+
+
 #### Deseret News article segmented batch
 ```ruby
 # /path/to/gem/spec/fixtures/files/article_segmented/batch_deseret_news

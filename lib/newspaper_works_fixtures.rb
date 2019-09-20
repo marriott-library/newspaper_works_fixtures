@@ -41,4 +41,9 @@ module NewspaperWorksFixtures
   def self.tiff_batch
     File.join(file_fixtures, 'tiff_batch', 'sn93059126')
   end
+
+  # returns the JP2 batch (extracted from materials in PDF batch)
+  def self.jp2_batch
+    File.join(file_fixtures, 'jp2_batch', 'sn85058233')
+  end
 end
