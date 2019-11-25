@@ -32,6 +32,11 @@ module NewspaperWorksFixtures
     File.join(file_fixtures, 'article_segmented', 'batch_topaz_times')
   end
 
+  # returns the full path to the Cambridge Chronicle
+  def self.article_segmented_batch_cambridge_chronicle
+    File.join(file_fixtures, 'article_segmented', 'page_images_with_article_mets', 'sn83020308')
+  end
+
   # returns the PDF batch (single publication) for Chicopee Weekly
   def self.pdf_batch
     File.join(file_fixtures, 'pdf_batch', 'sn93059126')

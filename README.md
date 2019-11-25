@@ -124,6 +124,17 @@ Article segmented files: 30 PDF, 30 TIF; 1.1 MB
 
 Page level files: 4 PDF, 4 TIF; 876 KB
 
+#### Article segmented batch with page-level images
+```ruby
+# /path/to/gem/spec/fixtures/files/article_segmented/page_images_with_article_mets/sn83020308
+NewspaperWorksFixtures.article_segmented_batch_cambridge_chronicle
+```
+_NOTE: This batch is a work in progress_
+
+This batch includes a single issue. Each page has a TIF, JP2, and ALTO XML file. There is an issue-level METS file the provides the article-level segmentation info.
+
+14 image scans; 645 MB
+
 # Credits
 
 This gem is part of a project developed in a collaboration between
